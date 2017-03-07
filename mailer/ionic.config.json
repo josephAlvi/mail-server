@@ -1,0 +1,12 @@
+{
+  "name": "mailer",
+  "app_id": "",
+  "v2": true,
+  "typescript": true,
+  "proxies": [
+    {
+      "path": "/mailServer",
+      "proxyUrl": "http://localhost:3100"
+    }
+  ]
+}
