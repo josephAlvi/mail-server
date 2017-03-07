@@ -1,5 +1,5 @@
 var Client = require('node-rest-client').Client;
-var apiUrl = 'https://api.sendgrid1.com/v3/mail/send';
+var apiUrl = 'https://api.sendgrid.com/v3/mail/send';
 var apiKey = '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';
 var client = new Client();
 var getEmailArrays = function (semiColonSeparatedList) {
