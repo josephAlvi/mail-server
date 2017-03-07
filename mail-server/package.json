@@ -1,0 +1,16 @@
+{
+  "name": "mail-server",
+  "version": "1.0.0",
+  "description": "send simple emails ",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.1",
+    "node-rest-client": "^3.0.3"
+  }
+}
